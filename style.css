@@ -568,3 +568,77 @@ main > section {
         margin-left: 0;
     }
 }
+
+/* =============================================== */
+/* AJUSTES FINOS PARA SMARTPHONES (MENOR QUE 480px) */
+/* =============================================== */
+@media (max-width: 480px) {
+
+    /* --- GERAL --- */
+    .container {
+        padding: 1rem;
+    }
+
+    .section {
+        padding: 3rem 0;
+    }
+
+    /* --- FONTES --- */
+    h1 { font-size: 1.9rem; }
+    h2 { font-size: 1.7rem; }
+    h3 { font-size: 1.3rem; }
+    .final-cta .current-price { font-size: 2.2rem; }
+    .mentor-details li { font-size: 1rem; }
+
+    /* --- SEÇÃO HERO --- */
+    .hero .logo {
+        margin-left: 0;
+    }
+
+    .hero h1, .hero p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.7rem;
+    }
+
+    /* --- SEÇÃO PÚBLICO-ALVO --- */
+    .audience-block h3 {
+        justify-content: center;
+    }
+
+    .audience-block p {
+        padding-left: 0;
+    }
+
+    /* --- SESSÃO MENTOR --- */
+    .mentor-details li {
+        padding-left: 1rem;
+    }
+
+    /* --- SEÇÃO AULAS --- */
+    .course-lessons-list li {
+        padding-left: 1rem;
+    }
+
+    /* --- NAVEGAÇÃO LATERAL --- */
+    .side-nav {
+        left: 10px;
+    }
+
+    .side-nav li {
+        margin: 14px 0;
+    }
+
+    .side-nav a:hover::after {
+        display: none;
+    }
+
+    /* --- SEÇÃO FINAL DE OFERTA --- */
+    .guarantee-box {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+}
