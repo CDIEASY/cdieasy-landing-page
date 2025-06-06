@@ -497,6 +497,7 @@ main > section {
     .container {
         flex-direction: column;
         text-align: center;
+        gap: 1.5rem;
     }
 
     .container.reverse {
@@ -507,6 +508,63 @@ main > section {
         text-align: center;
     }
 
+    .section {
+        padding: 3rem 1rem;
+    }
+
+    .section-fullscreen {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .side-nav {
+        display: none;
+    }
+
     h1 { font-size: 2.2rem; }
     h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.3rem; }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        margin: 0 0 3rem 0;
+    }
+
+    .hero p {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
+
+    .logo {
+        margin: 0 auto -1.5rem auto;
+    }
+
+    .audience-block p,
+    .mentor-details li,
+    .course-lessons-list li {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .audience-block h3,
+    .mentor-details li::before,
+    .course-lessons-list li::before {
+        justify-content: center;
+    }
+
+    .section-fullscreen .modules-grid {
+        max-width: 100%;
+    }
+
+    .module-card h3 {
+        font-size: 1rem;
+    }
+
+
+    .final-cta .original-price,
+    .final-cta .current-price {
+        text-align: center;
+        margin-left: 0;
+    }
 }
