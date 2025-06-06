@@ -483,13 +483,19 @@ img {
 
 /* EFEITO SCROLL SNAP (PULAR DE SESSÃO EM SESSÃO) */
 html {
-    scroll-snap-type: y proximity;
     scroll-behavior: smooth;
 }
 
 header.hero,
 main > section {
     scroll-snap-align: start;
+}
+
+/* --- DESKTOP --- */
+@media (min-width: 769px) {
+    html {
+        scroll-snap-type: y proximity;
+    }
 }
 
 /* RESPONSIVIDADE */
